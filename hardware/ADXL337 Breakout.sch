@@ -18529,7 +18529,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="ADXL337">
+<package name="LFCSP_LQ-16">
 <wire x1="-1.1" y1="-1.6" x2="-1.6" y2="-1.6" width="0.15" layer="21"/>
 <wire x1="-1.6" y1="-1.6" x2="-1.6" y2="-1.1" width="0.15" layer="21"/>
 <smd name="1" x="-1.3" y="0.75" dx="0.4" dy="0.25" layer="1"/>
@@ -18598,7 +18598,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <gate name="G$1" symbol="ADXL337" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="ADXL337">
+<device name="" package="LFCSP_LQ-16">
 <connects>
 <connect gate="G$1" pin="GND@1" pad="6"/>
 <connect gate="G$1" pin="GND@2" pad="7"/>
@@ -19830,7 +19830,7 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <sheet>
 <plain>
 <text x="149.86" y="7.62" size="2.54" layer="94">Jordan McConnell</text>
-<text x="238.76" y="7.62" size="2.54" layer="94">v01</text>
+<text x="238.76" y="7.62" size="2.54" layer="94">v10</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
